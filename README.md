@@ -27,6 +27,8 @@ https://github.com/tanrax/auto-video-thumbnail/releases
 java $JVM_OPTS -cp video-optimize-{version}-standalone.jar clojure.main -m video-optimize.core
 ```
 
-6) Leave videos.
+6) Leave videos in folder `videos`.
 
-Everything you leave in the videos folder will be optimized for web with the specified resolution (600 px in this example).
+Everything you leave in the videos folder will be optimized for web with the specified resolution (600px in this example).
+
+example.mp4 -> example_thumbnail.mp4
