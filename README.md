@@ -38,6 +38,12 @@ https://github.com/tanrax/auto-video-thumbnail/releases
 6) Now you can execute.
 
 ``` bash
+java -jar video-optimize-{version}-SNAPSHOT-standalone.jar
+```
+
+or
+
+``` bash
 java $JVM_OPTS -cp video-optimize-{version}-SNAPSHOT-standalone.jar clojure.main -m video-optimize.core
 ```
 
