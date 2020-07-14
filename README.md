@@ -1,20 +1,20 @@
 # Install
 
-0) Install Java.
+1) Install Java.
 
-## Debian/Ubuntu
+Debian/Ubuntu
 
 ``` bash
 sudo apt install default-jdk
 ```
 
-## Mac OS
+Mac OS
 
 ``` bash
 brew install openjdk
 ```
 
-1) Create `config.yaml`.
+2) Create `config.yaml`.
 
 ``` bash
 extension_thumbnail: "_thumbnail.mp4"
@@ -22,26 +22,26 @@ width_thumbnail: 600
 path_videos: "videos"
 ```
 
-2) Make folder `path_videos`.
+3) Make folder `path_videos`.
 
 ``` bash
 mkdir videos
 ```
 
-3) Install `ffmpeg`.
+4) Install `ffmpeg`.
 
-4) Download the latest version (`video-optimize-{version}-standalone.jar`).
+5) Download the latest version (`video-optimize-{version}-standalone.jar`).
 
 https://github.com/tanrax/auto-video-thumbnail/releases
 
 
-5) Now you can execute.
+6) Now you can execute.
 
 ``` bash
 java $JVM_OPTS -cp video-optimize-{version}-standalone.jar clojure.main -m video-optimize.core
 ```
 
-6) Leave videos in folder `videos`.
+7) Leave videos in folder `videos`.
 
 Everything you leave in the videos folder will be optimized for web with the specified resolution (600px in this example).
 
