@@ -1,4 +1,18 @@
-# Usage
+# Install
+
+0) Install Java.
+
+## Debian/Ubuntu
+
+``` bash
+sudo apt install default-jdk
+```
+
+## Mac OS
+
+``` bash
+brew install openjdk
+```
 
 1) Create `config.yaml`.
 
