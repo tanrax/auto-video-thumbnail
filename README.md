@@ -30,7 +30,7 @@ mkdir videos
 
 4) Install `ffmpeg`.
 
-5) Download the latest version (`video-optimize-{version}-standalone.jar`).
+5) Download the latest version (`video-optimize-{version}-SNAPSHOT-standalone.jar`).
 
 https://github.com/tanrax/auto-video-thumbnail/releases
 
@@ -38,7 +38,7 @@ https://github.com/tanrax/auto-video-thumbnail/releases
 6) Now you can execute.
 
 ``` bash
-java $JVM_OPTS -cp video-optimize-{version}-standalone.jar clojure.main -m video-optimize.core
+java $JVM_OPTS -cp video-optimize-{version}-SNAPSHOT-standalone.jar clojure.main -m video-optimize.core
 ```
 
 7) Leave videos in folder `videos`.
