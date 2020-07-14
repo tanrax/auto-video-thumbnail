@@ -1,4 +1,5 @@
 (ns video-optimize.core
+  (:gen-class)
   (:require
    [clojure.java.io :as io]
    [clojure.string :as str]
@@ -24,7 +25,5 @@
                                   (prn (str "Optimizing: " path_raw))
                                   ;; Optimizing with ffmpeg
                                   (shell/sh "ffmpeg" "-y" "-i" path_raw "-vf" (str "scale=" width_thumbnail ":-2") "-c:v" "libx264" "-crf" "23" "-profile:v" "high" "-pix_fmt" "yuv420p" "-color_primaries" "1" "-color_trc" "1" "-colorspace" "1" "-movflags" "+faststart" "-an" "-acodec" "aac" "-ab" "128kb" path_thumbnail)
-                                  (prn (str "Finish: " path_thumbnail))))
-                              )
-                            )}])
+                                  (prn (str "Finish: " path_thumbnail))))))}])
   (println "Running: Feed me!"))
