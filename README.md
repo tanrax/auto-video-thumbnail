@@ -20,6 +20,7 @@ brew install openjdk
 extension_thumbnail: "_thumbnail.mp4"
 width_thumbnail: 600
 path_videos: "videos"
+audio_quality_thumbnail: 128
 ```
 
 3) Make folder `path_videos`.
