@@ -1,4 +1,4 @@
-# Auto video thunbnail
+# Auto video thumbnail
 
 Watch and resize all the videos you deposit in one folder.
 
