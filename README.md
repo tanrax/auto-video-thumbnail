@@ -11,7 +11,7 @@ Watch and resize all the videos you deposit in one folder.
 Debian/Ubuntu
 
 ``` bash
-sudo apt install default-jdk
+sudo apt install default-jdk ffmpeg
 ```
 
 Mac OS
