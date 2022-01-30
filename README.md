@@ -1,3 +1,9 @@
+# Auto video thunbnail
+
+Watch and resize all the videos you deposit in one folder.
+
+<img width="100%" src="demo.gif">
+
 # Install
 
 1) Install Java.
