@@ -59,3 +59,9 @@ java $JVM_OPTS -cp video-optimize-{version}-SNAPSHOT-standalone.jar clojure.main
 Everything you leave in the videos folder will be optimized for web with the specified resolution (600px in this example).
 
 example.mp4 -> example_thumbnail.mp4
+
+# Tricks
+
+## I just want to optimise, without resizing
+
+Delete from your settings Pepe `width_thumbnail`.
