@@ -64,4 +64,4 @@ example.mp4 -> example_thumbnail.mp4
 
 ## I just want to optimise, without resizing
 
-Delete from your settings Pepe `width_thumbnail`.
+Delete from your settings `width_thumbnail`.
